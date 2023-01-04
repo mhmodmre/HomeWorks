@@ -1,0 +1,30 @@
+div{
+background-color: blue($color: #000000);
+padding: 10px;
+border: 1px solid;
+margin-bottom:10px ;
+}
+.class1 {
+
+    color: red($color: #000000);
+    }
+    .class2 {
+
+        color: green;
+        }
+
+@mixin class1($red){
+ color:red ;
+
+}
+@mixin class2($green){
+    color:green ;
+   
+   }
+.class1{
+    @include class1(red);
+ }
+ .class2{
+     @include class2(green);
+  }
+
