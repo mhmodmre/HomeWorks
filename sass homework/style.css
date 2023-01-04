@@ -1,0 +1,24 @@
+div {
+  background-color: 0;
+  padding: 10px;
+  border: 1px solid;
+  margin-bottom: 10px;
+}
+
+.class1 {
+  color: 0;
+}
+
+.class2 {
+  color: green;
+}
+
+.class1 {
+  color: red;
+}
+
+.class2 {
+  color: green;
+}
+
+/*# sourceMappingURL=style.css.map */
