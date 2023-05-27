@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogging Platform</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Blogging Platform</h1>
+    </header>
+
+    <div class="container">
+      <form id="postForm">
+        <h2>Create a new blog post:</h2>
+        <input type="text" id="titleInput" placeholder="Title" required />
+        <textarea id="contentInput" placeholder="Content" required></textarea>
+        <button type="submit">Create Post</button>
+      </form>
+
+      <div id="postList">
+        <h2>Recent Posts:</h2>
+        <ul id="posts"></ul>
+      </div>
+    </div>
+
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
